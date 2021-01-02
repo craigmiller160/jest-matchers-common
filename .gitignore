@@ -6,3 +6,4 @@ lib
 .yalc
 yalc.lock
 yarn-error.log
+coverage
