@@ -14,7 +14,7 @@ describe('stringEqualIgnoreWhitespace', () => {
             Hello
             Universe
         `;
-        expect(actual).stringEqualIgnoreWhitespace(expected);
+        expect(actual).stringsEqualIgnoreWhitespace(expected);
     });
 
     it('is not equal', () => {
@@ -31,7 +31,7 @@ describe('stringEqualIgnoreWhitespace', () => {
             Universe2
         `;
         try {
-            expect(actual).stringEqualIgnoreWhitespace(expected);
+            expect(actual).stringsEqualIgnoreWhitespace(expected);
         } catch (ex) {
             return;
         }
@@ -46,7 +46,7 @@ describe('stringEqualIgnoreWhitespace', () => {
                 Universe        
         `;
         try {
-            expect(text).stringEqualIgnoreWhitespace(({} as unknown) as string);
+            expect(text).stringsEqualIgnoreWhitespace(({} as unknown) as string);
         } catch (ex) {
             expect(ex.message).toEqual('Expected value is not a string');
             return;
@@ -62,7 +62,7 @@ describe('stringEqualIgnoreWhitespace', () => {
                 Universe        
         `;
         try {
-            expect(({} as unknown) as string).stringEqualIgnoreWhitespace(text);
+            expect(({} as unknown) as string).stringsEqualIgnoreWhitespace(text);
         } catch (ex) {
             expect(ex.message).toEqual('Received value is not a string');
             return;

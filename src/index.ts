@@ -1,3 +1,3 @@
-import stringEqualIgnoreWhitespace from './stringEqualIgnoreWhitespace';
+import stringEqualIgnoreWhitespace from './stringsEqualIgnoreWhitespace';
 
 expect.extend(stringEqualIgnoreWhitespace);

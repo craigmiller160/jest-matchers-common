@@ -2,10 +2,10 @@
 
 declare namespace jest {
     interface Matchers<R> {
-        readonly stringEqualIgnoreWhitespace: (expected: string) => R;
+        readonly stringsEqualIgnoreWhitespace: (expected: string) => R;
     }
 
     interface Expect {
-        readonly stringEqualIgnoreWhitespace: (expected: string) => any;
+        readonly stringsEqualIgnoreWhitespace: (expected: string) => any;
     }
 }

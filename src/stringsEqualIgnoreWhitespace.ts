@@ -1,5 +1,5 @@
 export default {
-    stringEqualIgnoreWhitespace(received: string, expected: string) {
+    stringsEqualIgnoreWhitespace(received: string, expected: string) {
         // Type checks to support JavaScript
         if (typeof received !== 'string') {
             return {
