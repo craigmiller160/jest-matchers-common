@@ -14,8 +14,8 @@ export default {
             };
         }
 
-        const receivedNoWhitespace = received.trim().replace(/\s/g, ' ');
-        const expectedNoWhitespace = expected.trim().replace(/\s/g, ' ');
+        const receivedNoWhitespace = received.trim().replace(/\s/g, '');
+        const expectedNoWhitespace = expected.trim().replace(/\s/g, '');
         try {
             expect(receivedNoWhitespace).toEqual(expectedNoWhitespace);
             return {
@@ -25,7 +25,7 @@ export default {
         } catch (ex) {
             return {
                 message: () => ex.message,
-                pass: true
+                pass: false
             };
         }
     }
