@@ -2,6 +2,14 @@
 
 Some common custom matchers I've written for jest.
 
+## To Setup
+
+In a setup file that runs before the jest test suite, include this line:
+
+```
+import '@craigmiller160/jest-matchers-common';
+```;
+
 ## The Matchers
 
 | Matcher Name | Description |
