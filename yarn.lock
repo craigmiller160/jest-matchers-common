@@ -909,8 +909,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@craigmiller160/react-web-config@file:.yalc/@craigmiller160/react-web-config":
-  version "2.7.0-beta"
+"@craigmiller160/react-web-config@2.7.0":
+  version "2.7.0"
+  resolved "http://craigpc:30000/@craigmiller160%2freact-web-config/-/react-web-config-2.7.0.tgz#a6815a60905db46683d40d067b896d83d04c6c83"
+  integrity sha512-r/kpqtD39F/c20upEIGKGmZSdy3eBlslmy+79Jqb4rNvKFSFjFD1KUwqoaqGSHiqdZVPYmnQlANfPSoWZgO6ag==
   dependencies:
     "@babel/core" "^7.12.3"
     "@babel/plugin-proposal-class-properties" "^7.12.1"

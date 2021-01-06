@@ -18,11 +18,9 @@
     "jest": "^26.6.3"
   },
   "devDependencies": {
+    "@craigmiller160/react-web-config": "2.7.0",
     "jest": "^26.6.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
-  },
-  "dependencies": {
-    "@craigmiller160/react-web-config": "file:.yalc/@craigmiller160/react-web-config"
   }
 }
