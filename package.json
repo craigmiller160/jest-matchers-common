@@ -1,6 +1,10 @@
 {
   "name": "@craigmiller160/jest-matchers-common",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "author": "craigmiller160",
+  "publishConfig": {
+    "registry": "http://craigpc:30003/repository/npm-private/"
+  },
   "files": [
     "lib",
     ".yalc"
@@ -18,7 +22,7 @@
     "jest": "^26.6.3"
   },
   "devDependencies": {
-    "@craigmiller160/react-web-config": "2.7.0",
+    "@craigmiller160/react-web-config": "2.8.1",
     "jest": "^26.6.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
