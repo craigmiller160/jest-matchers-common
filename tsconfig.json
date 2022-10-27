@@ -21,13 +21,13 @@
     "module": "es2015"
   },
   "include": [
-    "/home/craig/Development/Libraries/jest-matchers-common/src/**/*",
-    "/home/craig/Development/Libraries/jest-matchers-common/test/**/*"
+    "/Users/craigmiller/Development/Libraries/jest-matchers-common/src/**/*",
+    "/Users/craigmiller/Development/Libraries/jest-matchers-common/test/**/*"
   ],
   "exclude": [
-    "/home/craig/Development/Libraries/jest-matchers-common/node_modules",
-    "/home/craig/Development/Libraries/jest-matchers-common/lib",
-    "/home/craig/Development/Libraries/jest-matchers-common/build",
-    "/home/craig/Development/Libraries/jest-matchers-common/.yalc"
+    "/Users/craigmiller/Development/Libraries/jest-matchers-common/node_modules",
+    "/Users/craigmiller/Development/Libraries/jest-matchers-common/lib",
+    "/Users/craigmiller/Development/Libraries/jest-matchers-common/build",
+    "/Users/craigmiller/Development/Libraries/jest-matchers-common/.yalc"
   ]
 }
