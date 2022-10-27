@@ -24,7 +24,7 @@ export default {
             };
         } catch (ex) {
             return {
-                message: () => ex.message,
+                message: () => (ex as Error).message,
                 pass: false
             };
         }
