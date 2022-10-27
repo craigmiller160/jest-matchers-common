@@ -15,7 +15,7 @@
   "scripts": {
     "lint": "web-config-scripts lint",
     "test": "web-config-scripts test",
-    "build": "web-config-scripts lint && web-config-scripts test && web-config-scripts buildTSLib && node ./scripts/copyGlobals.js",
+    "build": "web-config-scripts test && web-config-scripts buildTSLib && node ./scripts/copyGlobals.js",
     "forceBuild": "web-config-scripts buildTSLib && node ./scripts/copyGlobals.js"
   },
   "peerDependencies": {
