@@ -1,9 +1,9 @@
 {
   "name": "@craigmiller160/jest-matchers-common",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "craigmiller160",
   "publishConfig": {
-    "registry": "https://craigmiller160.ddns.net:30003/repository/npm-private/"
+    "registry": "https://nexus-craigmiller160.ddns.net/repository/npm-private/"
   },
   "files": [
     "lib",
@@ -22,7 +22,7 @@
     "jest": "^26.6.3"
   },
   "devDependencies": {
-    "@craigmiller160/react-web-config": "2.8.2",
+    "@craigmiller160/react-web-config": "2.10.1",
     "jest": "^26.6.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
