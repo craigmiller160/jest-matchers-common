@@ -18,7 +18,7 @@
     "isolatedModules": true,
     "jsx": "react",
     "declaration": true,
-    "module": "es2015",
+    "module": "commonjs",
     "outDir": "/Users/craigmiller/Development/Libraries/jest-matchers-common/lib"
   },
   "include": [
